@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Acerca de
+title: Acerca de mi
 permalink: /about/
 ---
 
-Geek de Vigo
+Geek de Vigo.
 
 ### Información
 
