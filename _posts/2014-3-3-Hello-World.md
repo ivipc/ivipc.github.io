@@ -1,10 +1,15 @@
 ---
 layout: post
-title: You're up and running!
+title: Primer post
 ---
 
-Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
+Estoy probando **Jekyll** y **Github**.
 
+Me entró el gusanillo escuchando el pocast [**UGeek**](https://ugeek.github.io/)
+![UGeek](https://avatars2.githubusercontent.com/u/27757712?v=3&s=460)
 ![_config.yml]({{ site.baseurl }}/images/config.png)
 
-The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
+Siguiendo también los pasos de esta **web**:
+(https://devexperto.com/blog-gratis-github-jekyll/)
+
+Espero publicar varias cosillas que tengo apuntadas sobre **Raspberry Pi**.
