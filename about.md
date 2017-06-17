@@ -1,15 +1,15 @@
 ---
 layout: page
-title: About
+title: Acerca de
 permalink: /about/
 ---
 
-Some information about you!
+Geek de Vigo
 
-### More Information
+### Información
 
-A place to include any other types of information that you'd like to include about yourself.
+Me gusta la tecnología, la música, el cine y los libros.
 
-### Contact me
+### Contacto
 
-[email@domain.com](mailto:email@domain.com)
+[iv4npc@gmail.com](mailto:iv4npc@gmail.com)
