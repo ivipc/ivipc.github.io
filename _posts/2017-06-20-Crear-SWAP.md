@@ -7,13 +7,13 @@ title: Crear archivo para memoria SWAP
 
 * Comprobamos si el sistema tiene configurada la memoria SWAP:
 ```
-**sudo swapon --show**
+sudo swapon --show
 ```
 * Si no devuelve nada significa que no está configurada. Comprobamos la memoria libre:
 ```
 free -h
 ```
-* *Salida:*
+* Salida:
 ```
 Swap: 0B 0B 0B
 ```
@@ -29,7 +29,7 @@ sudo fallocate -l 1G /swapfile
 ```
 ls -lh /swapfile
 ```
-* *Salida:*
+* Salida:
 ```
 -rw-r--r-- 1 root root 1,0G jun 11 11:39 /swapfile
 ```
@@ -41,7 +41,7 @@ sudo chmod 600 /swapfile
 ```
 ls -lh /swapfile
 ```
-* *Salida:*
+* Salida:
 ```
 -rw------- 1 root root 1,0G jun 11 11:39 /swapfile
 ```
@@ -49,7 +49,7 @@ ls -lh /swapfile
 ```
 sudo mkswap /swapfile
 ```
-* *Salida:*
+* Salida:
 ```
 Setting up swapspace version 1, size = 1024 MiB (1073737728 bytes)
 no label, UUID=6ef39959-1209-4bd9-a8f3-48bb19c193bb
