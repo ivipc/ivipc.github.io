@@ -1,4 +1,7 @@
-#Crear archivo para memoria SWAP:
+---
+layout: post
+title: Crear archivo para memoria SWAP:
+---
 
 Vamos a ver como comprobar si existe un archivo de memoria SWAP y como crearlo.
 
@@ -36,7 +39,7 @@ no label, UUID=6ef39959-1209-4bd9-a8f3-48bb19c193bb
 * Comprobamos la memoria libre:
 ```free -h```
 * **Para hacer los cambios permanentes en el sistema:**
-* Hacemos un backup de /etc/fstab:
+* * Hacemos un backup de /etc/fstab:
 ```sudo cp /etc/fstab /etc/fstab.bak```
-* Añadimos una línea:
+* * Añadimos una línea:
 ```echo '/swapfile none swap sw 0 0' | sudo tee -a /etc/fstab```
