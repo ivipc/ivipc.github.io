@@ -7,7 +7,7 @@ title: Crear archivo para memoria SWAP
 
 * Comprobamos si el sistema tiene configurada la memoria SWAP:
 ```
-sudo swapon --show
+**sudo swapon --show**
 ```
 * Si no devuelve nada significa que no está configurada. Comprobamos la memoria libre:
 ```
