@@ -3,7 +3,7 @@ layout: post
 title: Crear archivo para memoria SWAP
 ---
 
-Vamos a ver como comprobar si existe un archivo de memoria SWAP y como crearlo.
+**Vamos a comprobar si existe un archivo de memoria SWAP y aprender a crearlo.**
 
 * Comprobamos si el sistema tiene configurada la memoria SWAP:
 ```
